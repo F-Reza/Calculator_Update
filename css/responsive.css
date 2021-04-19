@@ -1,0 +1,132 @@
+/*		Wide Pad Layout: 768px.
+		Inherits styles from: Default Layout, Mobile Layout.
+---------------------------------------------------------*/
+@media only screen and (min-width: 600px) and (max-width:768px) {
+
+
+body{
+	background:#9E9E9E;
+}
+	
+#main_wrapper{
+	width:100%;
+	background:#9E9E9E;
+}
+
+#display{
+	width:100%;
+	height:220px;
+	font-size:75px;
+}legend{
+	font-size:30px;
+}fieldset{
+	margin-top:0px;
+	border:18px solid #2b2222;
+	border-top:23px solid #2a4b75;
+}
+.var,input[type=button]{
+	width:24.4%;
+	height:150px;
+	font-size:70px;
+}input[type=button].equal{
+	width:49.4%;
+}input[type=button].var1{
+	height:110px;
+}
+#footer{
+	height:80px;
+	margin-top:50px;
+	margin-bottom:30px;
+}#footer p{
+	font-size:35px;
+}
+	
+}
+
+
+/*		Wide Mobile Tab Layout: 580px.
+		Inherits styles from: Default Layout, Mobile Layout.
+---------------------------------------------------------*/	
+	
+@media only screen and (min-width: 479px) and (max-width:599px) {
+
+
+body{
+	background:#9E9E9E;
+}
+	
+#main_wrapper{
+	width:100%;
+	background:#9E9E9E;
+}
+
+#display{
+	width:100%;
+	height:180px;
+	font-size:65px;
+}legend{
+	font-size:23px;
+}fieldset{
+	margin-top:0px;
+	border:18px solid #2b2222;
+	border-top:23px solid #2a4b75;
+}
+.var,input[type=button]{
+	width:24.2%;
+	height:110px;
+	font-size:60px;
+}input[type=button].equal{
+	width:49.4%;
+}input[type=button].var1{
+	height:100px;
+}
+#footer{
+	height:50px;
+	margin-top:50px;
+	margin-bottom:30px;
+}#footer p{
+	font-size:23px;
+}
+	
+}
+
+
+
+/*		Wide Mobile Layout: 420px.
+		Inherits styles from: Default Layout, Mobile Layout.
+---------------------------------------------------------*/
+
+@media only screen and (min-width: 360px) and (max-width:480px) {
+	
+#main_wrapper{
+	width:100%;
+	background:#9E9E9E;
+}
+
+#display{
+	width:100%;
+	height:105px;
+	font-size:33px;
+}fieldset{
+	margin-top:0px;
+	border:10px solid #2b2222;
+	border-top:16px solid #2a4b75;
+}
+.var,input[type=button]{
+	width:24%;
+	height:60px;
+}input[type=button].equal{
+	width:49.3%;
+}input[type=button].var1{
+	height:46px;
+}
+#footer{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+	
+}
+	
+/*---------------------
+Authorized::Forhad Reza
+-----------*/

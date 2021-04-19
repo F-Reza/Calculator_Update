@@ -1,0 +1,133 @@
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+
+*{margin:0;padding:0;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+body{
+	background:#708070;
+}
+
+#main_wrapper{
+	margin:0 auto;
+	width:419px;
+}
+/*--------------------------*/
+#calculator{
+	background:#808080;
+}
+fieldset{
+	margin-top:20px;
+	padding:2px;
+	border:20px solid #2b2222;
+	border-top:21px solid #2a4b75;
+}
+legend{
+	background:#5a5a5a;
+}
+
+/*-------Custom_font for Display--------*/
+/*
+@font-face{
+	font-family: "Technology";
+	src:url("font/Technology.ttf");
+}
+#display{
+	font-family:Technology;
+}
+*/
+
+
+/*---------display------------*/
+#display{
+	width:374px;
+	height:120px;
+	text-align:right;
+	padding-right:2px;
+	font-size:40px;
+	border:5px solid #615354;
+	border-top:15px solid #000;
+	border-bottom:15px solid #000;
+	background:#d0e1e6;
+}
+
+.var,input[type=button]{
+	width:90px;
+	height:65px;
+	background:#0c2835;
+	font-size:30px;
+	border-radius:10px;
+	color:#fff;
+}
+
+/*-------Custom_Style--------*/
+input[type=button].equal{
+	width:185px;
+	background:#03b1ff;
+	height:px;
+}
+input[type=button].plus{
+	height:;
+}
+input[type=button].alu{
+	background:#1b2671;
+}
+input[type=button].point{
+	background:#0c2855;
+}
+input[type=button].del{
+	background:orange;
+}
+input[type=button].clr{
+	background:#ff3077;
+}
+
+input[type=button].var1{
+	background:black;
+	height:50px;
+}input[type=button].mode{
+	background:blue;
+	margin-bottom:2px;
+}
+
+
+
+.var,input[type=button]:active{
+	background:#74ff3b;
+}
+
+.var,input[type=button]:last-child{
+	margin-bottom:5px;
+}
+
+
+/*----------footer-----------*/
+#footer{
+	height:40px;
+	background:#18161b;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+#footer p{
+	color:#fff;
+	text-align:center;
+	display:block;
+	padding:10px 20px;
+}
+#footer p a{
+	text-decoration:none;
+	color:#3333FF;
+}
+#footer p a:hover {
+	color:red;
+}
+
+/*----------End-----------*/
+
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+
